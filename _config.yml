@@ -1,4 +1,43 @@
-name: Hank Quinlan, Horrible Cop
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: C&S Upper House
+author: Jesse
+# email: controlandsimulate@protonmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+# Wiki set up by previous Upper House members to help you, a prospective but still relatively virgin student, avoid the gruelling dangers present in the jungle that is your master thesis. Stand on the shoulders of giants, and obtain your "license to control and simulate" in record (nominal) time!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  Huizerd
+
+# Build settings
+markdown: kramdown
+# theme: just-the-docs
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
