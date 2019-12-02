@@ -16,7 +16,7 @@ $ touch yyyy-mm-dd-yourpost.md
 Adhere to the following template and the general Markdown [rules](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and your post will look great!
 
 ```markdown
---
+---
 layout: post
 title: "Title of your post"
 date: yyyy-mm-dd
